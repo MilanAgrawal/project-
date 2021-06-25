@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+        const ROOM_ID = "<%= roomId %>"
+      </script>
+          <script src="/socket.io/socket.io.js"></script>
+         <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+        </head>
+  <body>
+<div class="msteams-clone">
+  <div class="video-sections">
+    <div id="video-streaming">
+       </div>
+       <div class="meting-controls">
+  <button type="button"  class="microphonesmute" id="buttonclasses"><i class="fas fa-microphone"></i></button>
+   <button type="button" class="videosmute" id="buttonclasses"><i class="fas fa-video"></i></button>
+  <button type="button" class="classbutton" id="buttonclasses">Share Link</button>
+ </div>
+  </div>
+  <div class="chat-sections">
+<div id ='selectedbestclasshere' class="chat-sectionsareas">
+<h4>Chat Boxes</h4>
+<div class="chatboxes">
+hello
+</div>
+<div class="adds">
+<input type="text" class="form-control" placeholder="Type your Message here" id="heaa">
+<button type="button" class="btn btn-info small" id="buttonclasses"><i class="fa fa-commenting-o" aria-hidden="true"></i></button>
+</div>
+  </div>
+</div>
+</div>
+<link rel="stylesheet" href="styles.css">
+         <script src="peerjs.min.js"></script>
+          <script src="indexes.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+body{
+  background-color:grey;
+}
+#video-grid {
+display: flex;
+flex-wrap: wrap;
+}
+video{
+  height:300px;
+  width:400px;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+button{
+  border-radius: 10px;
+  width:100px;
+  align-items: center;
+}
+.audios{
+  background-color: #00008B;
+}
+.chat-containers{
+  background-color: #e4e6eb
+}
+.videos-containers{
+  background-color: #242526;
+  border-radius: 10px;
+  height:90%;
+  width: 90%;
+}
+.chat-boxes{
+  background-color:#e4e6eb ;
+  border-radius: 4px;
+  width:10vh;
+  height:10vh;
+  float:right;
+}
+.border-top {
+    border-top: 1px solid #dee2e6;
+}
+.msteams-clone{
+  display: flex;
+  height: 100vh;
+}
+.video-sections{
+  flex: 0.76;
+}
+.meting-controls{
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+}
+.chat-sections{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  flex:0.24;
+}
+.msteams-clone{
+  background-color: #110C14;}
+.screensharings-allows{
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+width:90px;
+align-items: center;
+height:50px;
+}
+.chat-sectionsareas{
+  background-color:#e4e6eb;
+  height: 90vh;
+  overflow: scroll;
+}
+h1 h4{
+  margin: 20px;
+  text-align: center;
+}
+#selectedbestclasshere{
+  display: block;
+}
+.meting-controls{
+  background-color:#464646;
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  height:60px;
+  display:flex;
+  padding: 10px;
+  justify-content: center;
+}
+.meting-controls button{
+  margin: 4px;
+}
+
+.itemsrequired{
+ margin-left:20px;
+ margin-right:20px;
+}
+.classesnavbars{
+  margin-top:20px
+}
+.adds{
+  margin: 4px;
+  margin-bottom: 40px;
+  position:absolute;
+  display: flex;
+  background-color: #e4e6eb;
+  bottom:20px;
+}
+h4{
+  margin: 4px;
+  text-align:center;
+
+}
+#heaa
+{height:auto;
+  margin-bottom: auto;
+  margin-left: 24px;
+}
+.small{
+  margin-left: 4px;
+}
+div .chatboxes{
+  background-color:#A9A9A9;
+  padding: 4px;
+  margin: 20px;
+  border-radius: 5px;
+}
+#buttonclasses{
+  border-radius:20px;
+  width:auto;
+  height:auto;
+  margin-bottom: auto;
+}
+.microphonesmute{
+background-color:#464646;
+color:#e4e6eb
+}
+.videosmute{
+  background-color:#464646;
+  color:#e4e6eb;
+}
+button{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.classbutton{
+background-color:#464646;
+color:#e4e6eb
+}
